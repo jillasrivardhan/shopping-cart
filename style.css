@@ -1,0 +1,114 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: #333;
+}
+
+/* Navigation Links */
+a {
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin: 20px 0;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Main Form */
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  display: block;
+}
+
+/* Checkboxes and product section */
+h3 {
+  margin: 20px 0 10px;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Select dropdown */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e7e34;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
